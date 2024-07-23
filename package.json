@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^8.1.5"
+  },
+  "scripts": {
+    "start:ng-main": "lerna run --scope ng-main start",
+    "start:component-lib": "lerna run --scope ng-component-lib start",
+    "start:vue-main": "lerna run --scope vue-main start"
+  }
+}
